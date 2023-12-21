@@ -61,10 +61,16 @@
                 <img src={previewImage} alt="output" />
             {/if}
         </label>
+        <span class="how-to">Select Your PFP</span>
     </div>
 </main>
 
 <style>
+    .how-to {
+        font-weight: bold;
+        color: #5c5c5c;
+    }
+
     .background-canvas {
         background: #1c8bad;
         position: absolute;
