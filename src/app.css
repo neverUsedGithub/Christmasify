@@ -1,0 +1,22 @@
+:root {
+    font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+    margin: 0;
+    overflow: hidden;
+    min-height: 100vh;
+    color: #fefefe;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
